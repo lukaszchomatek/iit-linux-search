@@ -2,7 +2,7 @@ ts=2025-03-21T12:00:01Z level=INFO comp=db task=email duration_ms=1219 ok=false
 ts=2025-03-21T12:00:02Z level=INFO comp=db task=cleanup duration_ms=739 ok=false
 ts=2025-03-21T12:00:12Z level=WARN comp=scheduler task=email duration_ms=1842 ok=true
 ts=2025-03-21T12:00:14Z level=INFO comp=api task=backup duration_ms=472 ok=true
- ts=2025-03-21T12:00:21Z level=INFO comp=worker task=email duration_ms=1838 ok=false
+ts=2025-03-21T12:00:21Z level=INFO comp=worker task=email duration_ms=1838 ok=false
 ts=2025-03-21T12:00:24Z level=ERROR comp=worker task=backup duration_ms=829 ok=false
 ts=2025-03-21T12:00:27Z level=ERROR comp=worker task=cleanup duration_ms=1915 ok=true
 ts=2025-03-21T12:00:28Z level=ERROR comp=api task=email duration_ms=834 ok=false
