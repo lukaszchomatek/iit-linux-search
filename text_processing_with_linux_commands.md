@@ -87,3 +87,8 @@ sort -nr | head -n 3: Finds the 3 highest counts and shows the top 3 modules.
 awk '{print $4}': Isolates the Task Name (fourth column).; 
 sort | uniq -c: Counts the frequency of each task.; 
 sort -nr | head -n 1: Finds the highest count and shows the most frequent task.
+
+
+### Source used.
+
+**LinuxCommand.org&**
