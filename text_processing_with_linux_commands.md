@@ -17,8 +17,11 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
+![task 1](task1.PNG)
 
 **Explanation** Write the explanation why the specific command was used.
+grep - searches through text 
+-c - counts text that grep searched instead of displaying it
 
 ---
 
