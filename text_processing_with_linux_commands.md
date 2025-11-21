@@ -91,4 +91,6 @@ sort -nr | head -n 1: Finds the highest count and shows the most frequent task.
 
 ### Source used.
 
-**LinuxCommand.org&**
+https://www.geeksforgeeks.org/linux-unix/basic-linux-commands
+
+https://www.zentyal.com/news/linux-commands
