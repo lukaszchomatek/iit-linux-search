@@ -37,9 +37,10 @@ I can not see a file fullnames_simple.txt.
 
 ### 4. Which age is most frequent in fullnames_with_age.txt?
 
-<img width="928" height="262" alt="obraz" src="https://github.com/user-attachments/assets/3e822c1c-3b16-4354-b162-27aa5293652e" />
+<img width="807" height="61" alt="obraz" src="https://github.com/user-attachments/assets/896bc5fc-b9bf-4395-ad67-97f9134d9649" />
 
-**Explanation** cut-d was used to extract 'age= x' part from the lines. Then cut -d was used to extract only 'x' part. Sortwas used to sort the values, what is required for uniq. Uniq wasused to count unique occurences.
+
+**Explanation** cut-d was used to extract 'age= x' part from the lines. Then cut -d was used to extract only 'x' part. Sortwas used to sort the values, what is required for uniq. Uniq wasused to count unique occurences, sort -nr was used to sort with reversed order, head -1 was used to show just TOP 1 answer.
 
 ### 5. Show the 10 most common names (first+last) in fullnames_with_agetxt.
 
@@ -49,26 +50,24 @@ I can not see a file fullnames_simple.txt.
 
 ### 6. How many unique users are in app_small.log?
 
-<img width="1011" height="35" alt="obraz" src="https://github.com/user-attachments/assets/cb7ebdd3-b71e-4623-a19f-22469c7a7364" />
+<img width="914" height="38" alt="obraz" src="https://github.com/user-attachments/assets/06a604a0-4dff-4da9-a24d-0c74e46da095" />
 
-**Explanation** cud -d was used to separate 'user=ux' from each line, cut -d wasused to separate 'ux' from each line, sort was used because it's required for uniq, uniq was used to count occurences, wc -l was used to count number of users.
+**Explanation** cut -d was used to separate 'u15 action' from each line, cut -d wasused to separate 'ux' from each line, sort was used because it's required for uniq, uniq was used to count occurences, wc -l was used to count number of users.
 
 ### 7. Which status code appears most often in access_medium.log? 
 
-<img width="1030" height="39" alt="obraz" src="https://github.com/user-attachments/assets/4bf872f6-3104-433c-9aa2-66f88b695ec6" />
+<img width="910" height="40" alt="obraz" src="https://github.com/user-attachments/assets/dd09aa0c-aa79-4aa4-9aac-38d4ae3a0db1" />
 
-**Explanation** cut -d wasused to separate '2025-03-21T12:00:36Z 192.168.0.8 DELETE' part from each line, cud -d was used to separate the status code from each line, sort was used because it's required for uniq, uniq was used to count unique occurences, sort -nr was used to sort with reversed order and head -1 wasused to show just the top 1 code status.
+**Explanation** cut -d was used to separate '5th' part from each line, sort was used because it's required for uniq, uniq was used to count unique occurences, sort -nr was used to sort with reversed order and head -1 wasused to show just the top 1 code status.
 
 ### 8. What is the top 3 most common modules in app_small.log?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+<img width="879" height="72" alt="obraz" src="https://github.com/user-attachments/assets/fde3e3ea-0742-4a65-82d8-c224619b1598" />
 
-**Explanation** Write the explanation why the specific command was used.
+**Explanation** cut -d was used to separate the modules from each line, then sort was used because it's required for uniq, then sort -nr was used to sort with reversed order, and then head -3 was used to show only TOP 3 modules. 
 
 ### 9. Which task appears most often in system_small.log?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+<img width="1029" height="40" alt="obraz" src="https://github.com/user-attachments/assets/dd8b90b2-e120-41ed-a9be-a969fcebcde7" />
 
-**Explanation** Write the explanation why the specific command was used.
+**Explanation** cut -d was used to separate 'task=x' part from each line, cut -d was used to remove the 'task=' part, sort was used because it's required for uniq, sort -nr was used to sort with reversed order head -1 was used to show only top 1 task. 
