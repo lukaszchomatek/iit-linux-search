@@ -15,7 +15,7 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 ### 1. How many lines in access_small.log have path /login?
 
-<img width="1920" height="1080" alt="image" src="1.png" />
+<img width="1920" height="1080" alt="image" src="1-take-two.png" />
 
 
 **Explanation** Simply modified the command from above :D
@@ -49,28 +49,24 @@ Correct screenshot should contain your github username in the shell, a command a
 
 ### 6. How many unique users are in app_small.log?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+<img width="1920" height="1080" alt="image" src="6-take-two.png" />
 
 **Explanation** Write the explanation why the specific command was used.
 
 ### 7. Which status code appears most often in access_medium.log? 
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+<img width="1920" height="1080" alt="image" src="7-take-two.png" />
 
 **Explanation** Write the explanation why the specific command was used.
 
 ### 8. What is the top 3 most common modules in app_small.log?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+<img width="1920" height="1080" alt="image" src="8-take-two.png" />
 
 **Explanation** Write the explanation why the specific command was used.
 
 ### 9. Which task appears most often in system_small.log?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+<img width="1920" height="1080" alt="image" src="9-take-two.png" />
 
 **Explanation** Write the explanation why the specific command was used.
