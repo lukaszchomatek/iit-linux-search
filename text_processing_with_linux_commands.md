@@ -63,9 +63,9 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 ### 6. How many unique users are in app_small.log?
 
-![alt text](image-5.png)
+![alt text](image-9.png)
 
-**Explanation** awk '{print $3}': Extracts the user ID (assuming it is the third column, $3).
+**Explanation** awk '{print $4}': Extracts the user ID (assuming it is the third column, $3).
 
 | sort | uniq: Sorts the IDs and then filters them to keep only unique occurrences.
 
