@@ -1,0 +1,19 @@
+wc -l /workspaces/iit-linux-search-259788/names/fullnames_with_age.txt
+grep -o "Smith" /workspaces/iit-linux-search-259788/access_small.log 
+grep -oP "age=\K.*" /workspaces/iit-linux-search-259788/names/fullnames_with_age.txt | sort | uniq -c | sort -nr | head -n 1
+grep -o "Smith" /workspaces/iit-linux-search-259788/names/fullnames_simple.txt [FILE DOES NOT EXIST]
+grep -oP "^[A-Z][a-zA-Z]+\s+[A-Z][a-zA-Z]+" /workspaces/iit-linux-search-259788/names/fullnames_with_age | sort | uniq -c | sort -nr | head -n 10
+grep -oP "user=\K[^ ]+" /workspaces/iit-linux-search-259788/logs/app_small.log | sort | uniq | wc -l
+grep -oP "action=\K[^ ]+" /workspaces/iit-linux-search-259788/logs/app_medium.log | sort | uniq -c | sort -nr
+grep -oP "^\S+\s+\S+\s+\K\S+" /workspaces/iit-linux-search-259788/logs/app_small.log | sort | uniq -c | sort -nr
+grep -oP "task=\K[^ ]+" /workspaces/iit-linux-search-259788/logs/system_small.log | sort | uniq -c | sort -nr | head -n 1
+
+\K - meta reset
+\S - non-whitespace
+\s - whitespace
++ - join regex expressions
+[^ ] - literally anything except " "
+^ - position at start of line (assertion)
+[A-Z] - any capital
+[a-zA-Z] - any letter
+-o = occurence
