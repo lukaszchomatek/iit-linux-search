@@ -57,16 +57,16 @@ Correct screenshot should contain your github username in the shell, a command a
 
 <img width="1920" height="1080" alt="image" src="7.png" />
 
-**Explanation** Took out
+**Explanation** Took out status codes, sorted, counted uniquely and sorted again then shown only one output.
 
 ### 8. What is the top 3 most common modules in app_small.log?
 
 <img width="1920" height="1080" alt="image" src="8.png" />
 
-**Explanation** Write the explanation why the specific command was used.
+**Explanation** Took out modules cut command and then sorted. After, counted unique output, sorted again and displayed only 3 of them.
 
 ### 9. Which task appears most often in system_small.log?
 
 <img width="1920" height="1080" alt="image" src="9.png" />
 
-**Explanation** Write the explanation why the specific command was used.
+**Explanation** Again, cut out what we need, sorted, counted for unique output, sorted and displayed only one output.
