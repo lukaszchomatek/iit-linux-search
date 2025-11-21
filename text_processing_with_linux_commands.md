@@ -31,7 +31,15 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 ---
 
-### 3. How many occurrences of Smith are in fullnames_simple.txt?
+### 3. How many occurrences of Smith are in fullnames_with_age.txt? <- Updated
+
+![Ex_2](Ex_2.png)
+
+**Explanation** grep filters for "Smith", wc same as task 1
+
+---
+
+### 3. How many occurrences of Smith are in fullnames_simple.txt? <- Original
 
 ![Ex_3](Ex_3.png)
 
