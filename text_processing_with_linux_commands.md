@@ -86,7 +86,12 @@ Correct screenshot should contain your github username in the shell, a command a
 
 ![task 6](task6n.png)
 
-**Explanation** Write the explanation why the specific command was used.
+**Explanation** 
+- cut takes the field that has user=....
+- The second cut removes user= and keeps only the user ID.
+- sort sorts all user IDs.
+- uniq removes duplicates so only unique IDs remain.
+- wc -l counts how many unique users there are.
 
 ### 7. Which status code appears most often in access_medium.log? 
 
