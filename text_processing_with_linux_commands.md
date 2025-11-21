@@ -53,9 +53,9 @@ There is no such file
 
 ### 6. How many unique users are in app_small.log?
 
-![alt text](<Screenshot 2025-11-21 at 12.22.04.png>)
+![alt text](<Screenshot 2025-11-21 at 13.05.29.png>)
 
-**Explanation** • cut -d' ' -f2 — extracts the second column (user names, if stored as such). • sort | uniq — removes duplicates. • wc -l — counts unique users.
+**Explanation** • cut -d '=' -f 2 app_small.log | cut -d ' ' -f 1 | sort | uniq -c | wc -l
 
 ### 7. Which status code appears most often in access_medium.log? 
 
