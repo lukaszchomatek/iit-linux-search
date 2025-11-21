@@ -55,7 +55,7 @@ sort -nr | head -n 10: Finds the 10 highest counts and shows the top 10 names.
 
 ### 6. How many unique users are in app_small.log?
 
-![alt text](task06.png)
+![alt text](task06-1.png)
 
 **Explanation**: awk '{print $3}': Isolates the User ID (third column).; 
 sort | uniq: Removes all duplicate IDs.; 
