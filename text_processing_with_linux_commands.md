@@ -37,10 +37,11 @@ file doesn`t exist
 
 ### 4. Which age is most frequent in fullnames_with_age.txt?
 
-<img width="1537" height="315" alt="image" src="https://github.com/user-attachments/assets/5067ea7a-9d6e-4563-80e8-4fa3e864f48f" />
+<img width="1531" height="57" alt="image" src="https://github.com/user-attachments/assets/cee094e2-2d24-4817-ac05-b6a6aa5d0550" />
 
 
-**Explanation** cut to separate the age column and then only numbers, sort for uniq func, then uniq -c count unique occurences, sort to sort them descending, so the first is the most frequent
+
+**Explanation** cut to separate the age values, sort for uniq func, then uniq -c count unique occurences, sort -nr to sort them descending, so the first is the most frequent
 ### 5. Show the 10 most common names (first+last) in fullnames_with_agetxt.
 
 <img width="1491" height="291" alt="image" src="https://github.com/user-attachments/assets/ab684f31-159c-4083-b1ab-b9b78e86584c" />
