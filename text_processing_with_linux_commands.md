@@ -24,10 +24,9 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 ### 2. How many occurrences of Smith are in fullnames_with_age.txt?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+<img width="1920" height="1080" alt="image" src="3.png" />
 
-**Explanation** Write the explanation why the specific command was used.
+**Explanation** Grep command finds Smiths
 
 ### 3. How many occurrences of Smith are in fullnames_simple.txt?
 
@@ -61,12 +60,12 @@ Correct screenshot should contain your github username in the shell, a command a
 
 ### 8. What is the top 3 most common modules in app_small.log?
 
-<img width="1920" height="1080" alt="image" src="8.png" />
+<img width="1920" height="1080" alt="image" src="8-take-two.png" />
 
 **Explanation** Took out modules cut command and then sorted. After, counted unique output, sorted again and displayed only 3 of them.
 
 ### 9. Which task appears most often in system_small.log?
 
-<img width="1920" height="1080" alt="image" src="9.png" />
+<img width="1920" height="1080" alt="image" src="9-take-two.png" />
 
 **Explanation** Again, cut out what we need, sorted, counted for unique output, sorted and displayed only one output.
