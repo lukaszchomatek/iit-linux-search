@@ -15,8 +15,8 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 ### 1. How many lines in access_small.log have path /login?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+<img width="1920" height="1080" alt="image" src="1.png" />
+
 
 **Explanation** Write the explanation why the specific command was used.
 
