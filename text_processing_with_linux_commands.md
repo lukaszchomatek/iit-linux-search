@@ -20,6 +20,8 @@ Correct screenshot should contain your github username in the shell, a command a
 
 **Explanation** Write the explanation why the specific command was used.
 
+grep - searches the file for all lines containing /login, wc (word count) with the -l flag counts newlines.
+
 ---
 
 ### 2. How many occurrences of Smith are in fullnames_with_age.txt?
@@ -29,6 +31,9 @@ Correct screenshot should contain your github username in the shell, a command a
 
 **Explanation** Write the explanation why the specific command was used.
 
+
+grep - searches the file for all lines containing Smith, wc (word count) with the -l flag counts newlines.
+
 ### 3. How many occurrences of Smith are in fullnames_simple.txt?
 
 Put screenshot from Codespaces illustrating the result here.
@@ -36,6 +41,7 @@ Correct screenshot should contain your github username in the shell, a command a
 
 **Explanation** Write the explanation why the specific command was used.
 
+Same as 2. but since selected file doesn't exists grep returns error and wc returns 0.
 ### 4. Which age is most frequent in fullnames_with_age.txt?
 
 Put screenshot from Codespaces illustrating the result here.
