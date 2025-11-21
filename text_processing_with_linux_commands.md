@@ -1,4 +1,4 @@
-> This is the demonstration how to use Linux commands to process strutured text data.
+<img width="866" height="51" alt="obraz" src="https://github.com/user-attachments/assets/896eaa85-60f6-4573-a4e3-52237444bcf5" />> This is the demonstration how to use Linux commands to process strutured text data.
 
 ### 0. How many lines are in fullnames_with_age.txt?
 
@@ -50,8 +50,9 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 **Explanation** cut commands format the data, uniq shows only unique linse and wc -l counts them.
 
 ### 7. Which status code appears most often in access_medium.log? 
+<img width="866" height="51" alt="obraz" src="https://github.com/user-attachments/assets/f5b9d889-2646-431f-8eed-6b16c46ae9c7" />
 
-![Uploading obraz.png…]()
+
 
 **Explanation** Write the explanation why the specific command was used.
 
