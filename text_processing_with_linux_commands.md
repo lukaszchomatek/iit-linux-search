@@ -49,7 +49,7 @@ Correct screenshot should contain your github username in the shell, a command a
 
 ![task 4](task4.png)
 
-**Explanation** ``grep -o "age=[^ ]*" /workspaces/iit-linux-search/names/fullnames_with_age.txt`` all fragments that starts with ``age=`` to the first space. ``cut -d "=" -f 2`` it splits a line by "=" and only takes second value (that is the age id in this case). ``sort`` is being used to group these numers and ``uniq -c`` to count how many of them there are. Than ``sort -nr`` sorts them by the occurance and ``head -1`` shows the winner.
+**Explanation** ``grep -o "age=[^ ]*" /workspaces/iit-linux-search/names/fullnames_with_age.txt`` all fragments that starts with ``age=`` to the first space. ``cut -d "=" -f 2`` it splits a line by "=" and only takes second value (that is the age id in this case). ``sort`` is being used to group these numbers and ``uniq -c`` to count how many of them there are. Than ``sort -nr`` sorts them by the occurrence and ``head -1`` shows the winner.
 
 ### 5. Show the 10 most common names (first+last) in fullnames_with_age.txt.
 
@@ -58,7 +58,7 @@ Correct screenshot should contain your github username in the shell, a command a
 
 ![task 5](task5.png)
 
-**Explanation** ``awk -F "," '{print $1}' /workspaces/iit-linux-search/names/fullnames_with_age.txt`` splits each line by sign "," and gets the first part. ``sort`` is being used to group these names and ``uniq -c`` to count how many of them there are. Than ``sort -nr`` sorts them by the occurance and ``head -1`` shows the winner.
+**Explanation** ``awk -F "," '{print $1}' /workspaces/iit-linux-search/names/fullnames_with_age.txt`` splits each line by sign "," and gets the first part. ``sort`` is being used to group these names and ``uniq -c`` to count how many of them there are. Than ``sort -nr`` sorts them by the occurrence and ``head -10`` shows the top 10.
 
 ### 6. How many unique users are in app_small.log?
 
@@ -76,7 +76,7 @@ Correct screenshot should contain your github username in the shell, a command a
 
 ![task 7](task7.png)
 
-**Explanation** ``awk '{print $5}' /workspaces/iit-linux-search/logs/access_medium.log`` takes the 5th collumn. ``sort | uniq -c | sort -nr | head -1`` sorts them, counts unique, sorts them by occurance and gets the first one.
+**Explanation** ``awk '{print $5}' /workspaces/iit-linux-search/logs/access_medium.log`` takes the 5th collumn. ``sort | uniq -c | sort -nr | head -1`` sorts them, counts unique, sorts them by occurrence and gets the first one.
 
 ### 8. What is the top 3 most common modules in app_small.log?
 
@@ -85,7 +85,7 @@ Correct screenshot should contain your github username in the shell, a command a
 
 ![task 8](task8.png)
 
-**Explanation** ``awk '{print $3}' /workspaces/iit-linux-search/logs/app_small.log`` takes the 3rd collumn. ``sort | uniq -c | sort -nr | head -1`` sorts them, counts unique, sorts them by occurance and gets the top 3.
+**Explanation** ``awk '{print $3}' /workspaces/iit-linux-search/logs/app_small.log`` takes the 3rd collumn. ``sort | uniq -c | sort -nr | head -3`` sorts them, counts unique, sorts them by occurrence and gets the top 3.
 
 ### 9. Which task appears most often in system_small.log?
 
