@@ -17,10 +17,10 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
-
 **Explanation** Write the explanation why the specific command was used.
 
----
+---<img width="1084" height="101" alt="1-1" src="https://github.com/user-attachments/assets/1bca06fa-eeaf-4a92-a933-0a842269221d" />
+
 
 ### 2. How many occurrences of Smith are in fullnames_with_age.txt?
 
