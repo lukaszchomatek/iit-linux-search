@@ -68,7 +68,7 @@ file doesn`t exist
 
 ### 9. Which task appears most often in system_small.log?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+<img width="1613" height="55" alt="image" src="https://github.com/user-attachments/assets/2f6a2f86-49d7-4a60-8ced-dd31a42376ac" />
 
-**Explanation** Write the explanation why the specific command was used.
+
+**Explanation** 2 cuts to separate the task names, sort for uniq, uniq -c  to count the uniq occurences, sort -nr to sort in descending order, head -1 to display top 1
