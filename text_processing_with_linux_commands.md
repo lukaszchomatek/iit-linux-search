@@ -74,6 +74,11 @@ There is no such file
 
 ### 9. Which task appears most often in system_small.log?
 
-![alt text](<Screenshot 2025-11-21 at 12.26.01.png>)
+![alt text](<Screenshot 2025-11-21 at 13.16.37.png>)
 
-**Explanation** • awk '{print $2}' — extracts the task name (assuming it's in the 2nd column). • sort | uniq -c | sort -nr | head -1 — counts, sorts, and shows the most common task.
+**Explanation** 	
+	1.	cut -d ' ' -f 4 → gets the 4th space-separated field (user=u20).
+	2.	cut -d '=' -f 2 → extracts the user ID (u20).
+	3.	sort | uniq -c → counts occurrences of each user.
+	4.	sort -nr → sorts by count descending.
+	5.	head -1 → shows the user with the highest number of occurrences.
