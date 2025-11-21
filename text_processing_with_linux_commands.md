@@ -59,7 +59,7 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 ![Ex_6](Ex_6.png)
 
-**Explanation** cut extracts the user field. The output is sorted (a prerequisite for uniq), uniq removes duplicates, and wc -l counts the remaining unique lines
+**Explanation** cut extracts the user field. The output is sorted, uniq removes duplicates, and wc -l counts the remaining unique lines
 
 ---
 
@@ -75,7 +75,7 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 ![Ex_8](Ex_8.png)
 
-**Explanation** Two chained cut commands slice the module field and clean the prefix (e.g., module=). sort | uniq -c counts occurrences. sort -nr ranks them, and head -3 shows the top 3.
+**Explanation** cuts same as task 4. sort | uniq -c counts occurrences. sort -nr ranks them, and head -3 shows the top 3.
 
 ---
 
@@ -83,6 +83,6 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 ![Ex_9](Ex_9.png)
 
-**Explanation** This follows the Frequency Analysis pattern for tasks. cut extracts the task field and the second cut cleans the task= prefix. sort | uniq -c counts the frequencies, and sort -nr | head -1 identifies the most common task.
+**Explanation** cuts same as task 4. sort | uniq -c counts the frequencies, and sort -nr | head -1 identifies the most common task.
 
 ---
