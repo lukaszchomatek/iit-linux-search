@@ -2,21 +2,14 @@
 
 ### 0. How many lines are in fullnames_with_age.txt?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![task 0](img_0.png)
 
-Example:
-
-![task 0](task0.png)
-
-**Explanation** Write the explanation why the specific command was used.
-
-Example: wc command is to count data in a given file. -l parameter is for counting lines.
+**Explanation**
+wc command is to count data in a given file. -l parameter is for counting lines.
 
 ### 1. How many lines in access_small.log have path /login?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![task 1](img_1.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
@@ -24,8 +17,7 @@ Correct screenshot should contain your github username in the shell, a command a
 
 ### 2. How many different ages are in fullnames_with_age.txt?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![task 2](img_2.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
@@ -33,8 +25,7 @@ Correct screenshot should contain your github username in the shell, a command a
 
 ### 3. How many unique first names are in fullnames_with_age.txt?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![task 3](img_3.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
@@ -42,8 +33,7 @@ Correct screenshot should contain your github username in the shell, a command a
 
 ### 4. Which age is most frequent in fullnames_with_age.txt?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![task 4](img_4.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
@@ -51,8 +41,7 @@ Correct screenshot should contain your github username in the shell, a command a
 
 ### 5. Which username failed login most often in auth_small.csv?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![task 5](img_5.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
@@ -60,8 +49,7 @@ Correct screenshot should contain your github username in the shell, a command a
 
 ### 6. How many lines in system_small.log have ok=true?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![task 6](img_6.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
@@ -69,8 +57,7 @@ Correct screenshot should contain your github username in the shell, a command a
 
 ### 7, Which level (INFO, WARN, ERROR) appears most often in system_small.log?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![task 7](img_7.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
@@ -78,8 +65,7 @@ Correct screenshot should contain your github username in the shell, a command a
 
 ### 8. What is the top 3 most common actions in app_small.log?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![task 8](img_8.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
@@ -87,8 +73,7 @@ Correct screenshot should contain your github username in the shell, a command a
 
 ### 9. How many unique users are in app_small.log?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![task 9](img_9.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
