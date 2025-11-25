@@ -18,7 +18,9 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task1](Task1.png)
+
+**Explanation** grep -c is used to count how many lines contain /login
 
 ---
 
@@ -27,7 +29,9 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task2](Task2.png)
+
+**Explanation** grep -o 'age...' extracts only age=xx part, sort sorts them, then uniq gets rid of the duplicates and wc-l counts how many remain
 
 ---
 
@@ -36,7 +40,9 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task3](Task3.png)
+
+**Explanation** cut -d" " -f1 splits each line by space and extracts the first field (so first name), then just sort, uniq to remove duplicated and then wc -l to count.
 
 ---
 
@@ -45,7 +51,9 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task4](Task4.png)
+
+**Explanation** First we extract just the ages, then we divide it by = sign, then we take just the number, sort it, use uniq -c to make it count the duplicates then sort by the number and output the highest one (So most common is 56 with 222 occurences)
 
 ---
 
@@ -54,7 +62,9 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task5](Task5.png)
+
+**Explanation** Very similar to task 4. Keep the lines with FAIL, count unique names, list the one with the most occurences.
 
 ---
 
@@ -63,7 +73,9 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task6](Task6.png)
+
+**Explanation** grep -c counts how many lines contain a phrase, same as Task1
 
 ---
 
@@ -72,7 +84,9 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task7](Task7.png)
+
+**Explanation** grep -o extracts just the fragment, then we only leave the 2nd field (INFO,WARN or ERROR), then sort them, use uniq -c to count uniques, sort by number of occurences, then output the highest one
 
 ---
 
@@ -81,7 +95,9 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task8](Task8.png)
+
+**Explanation** grep -o extracts just the fragment, then we only leave the 2nd field (the action), then sort them, use uniq -c to count uniques, sort by number of occurences, output the 3 highest ones
 
 ---
 
@@ -90,6 +106,10 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task9](Task9.png)
+
+**Explanation** grep -o extracts just the fragment, then we only leave the 2nd field (the user), then sort them, use uniq remove duplicates, then use wc -l to count how many are remaining (so unique ones)
+
+---
 
 ---
