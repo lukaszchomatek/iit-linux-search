@@ -9,7 +9,11 @@ Example:
 
 ![task 0](task0.png)
 
+![task 0](image.png)
+
 **Explanation** Write the explanation why the specific command was used.
+
+wc (word count) command is counting data in the file. -l tells wc to output counted lines.
 
 Example: wc command is to count data in a given file. -l parameter is for counting lines.
 
@@ -18,7 +22,11 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
+![task1](image-1.png)
+
 **Explanation** Write the explanation why the specific command was used.
+
+grep (Global Regular Expression Print) filter lines that contain a pattern. -c tells grep to count the number of lines.
 
 ---
 
@@ -27,7 +35,11 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
+![task2](image-2.png)
+
 **Explanation** Write the explanation why the specific command was used.
+
+cut is used to extract sections from each line. -d specifies which delimiter is used. -f3 says that 3rd column is where the program should look. sort -n sorts numerically. uniq filters adjacent matching lines. wc -l count how many unique ages are there.
 
 ---
 
@@ -36,7 +48,11 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
+![task3](image-3.png)
+
 **Explanation** Write the explanation why the specific command was used.
+
+cut is used to extract sections from each line. -d specifies which delimiter is used. -f1 says that 1st column is where the program should look. sort -n sorts numerically. uniq filters adjacent matching lines. wc -l count how many unique ages are there.
 
 ---
 
@@ -45,7 +61,11 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
+![task4](image-4.png)
+
 **Explanation** Write the explanation why the specific command was used.
+
+cut is used to extract sections from each line. -d specifies which delimiter is used. -f3 says that 3rd column is where the program should look. sort -n sorts numerically. uniq filters adjacent matching lines and -c counts occurences. sort -nr sorts in reverse order, so the most frequent age is on shown top.
 
 ---
 
@@ -54,7 +74,11 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
+![task5](image-5.png)
+
 **Explanation** Write the explanation why the specific command was used.
+
+grep is used to filter lines that contain FAIL. cut is used to extract sections from each line. -d specifies which delimiter is used. -f2 says that 2nd column is where the program should look. sort sorts. uniq filters adjacent matching lines and -c counts occurences. sort -nr sorts in reverse order, so the most frequent username is shown on top.
 
 ---
 
@@ -63,7 +87,11 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
+![task6](image-6.png)
+
 **Explanation** Write the explanation why the specific command was used.
+
+grep is used to filter lines that contain ok=true. -c is used to count those lines.
 
 ---
 
@@ -72,7 +100,11 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
+![task7](image-7.png)
+
 **Explanation** Write the explanation why the specific command was used.
+
+cut is used to extract sections from each line. -d specifies which delimiter is used. -f2 says that 2nd column is where the program should look. sort -n sorts numerically. uniq filters adjacent matching lines and -c counts occurences. sort -nr sorts in reverse order, so the most frequent result is on top.
 
 ---
 
@@ -81,7 +113,11 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
+![task8](image-8.png)
+
 **Explanation** Write the explanation why the specific command was used.
+
+cut is used to extract sections from each line. -d specifies which delimiter is used. -f5 says that 5th column is where the program should look. sort -n sorts numerically. uniq filters adjacent matching lines and -c counts occurences. sort -nr sorts in reverse order, so the most frequent results are on top.
 
 ---
 
@@ -90,6 +126,10 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
+![task9](image-9.png)
+
 **Explanation** Write the explanation why the specific command was used.
+
+cut is used to extract sections from each line. -d specifies which delimiter is used. -f4 says that 4th column is where the program should look. sort -n sorts numerically. uniq filters adjacent matching lines. grep -c counts and outputs the number of the lines that contain user.
 
 ---
