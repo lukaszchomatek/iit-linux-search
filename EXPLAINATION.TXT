@@ -1,0 +1,27 @@
+
+1.
+grep pulls out every line that contains /login, and then wc -l just counts how many of those lines were found.
+
+2.
+This command grabs every age= value, sorts them with sort -n, removes duplicates using uniq, and finally wc -l counts how many different ages appear in the file.
+
+3.
+Here the first word of each line is extracted as the first name, then sort arranges them, uniq removes repeats, and wc -l gives the number of unique first names.
+
+4.
+The command collects all age values, then uniq -c counts how often each one appears, sort -nr puts them from most common to least, and head -1 shows which age occurs the most.
+
+5.
+grep finds all lines with FAIL, cut -d',' -f2 extracts the username from those failures, then uniq -c counts them, sort -nr orders them by how many fails they had, and head -1 shows the user with the most failed logins.
+
+6.
+This one filters all lines where ok=true using grep, and then wc -l counts how many such lines there are in the log.
+
+7.
+This command pulls out every occurrence of INFO, WARN, or ERROR from the log using grep -oE. Then sort lines up all the found levels, and uniq -c counts how many times each one appears. Finally, head -n 1 shows the level that occurs the most in the file.
+
+8.
+This command pulls out the fifth field from each line using cut after squeezing spaces with tr -s " ". Then sort and uniq -c count each action, sort -nr orders them by frequency, and head -n 3 shows the three most common actions.
+
+9.
+This command reads the log file and uses tr -s ' ' to squeeze multiple spaces into one. cut -d ' ' -f4 extracts the fourth field, which is the username. Then sort arranges them, uniq removes duplicates, and wc -l counts the total number of unique users in the file.

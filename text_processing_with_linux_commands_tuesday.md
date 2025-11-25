@@ -20,6 +20,16 @@ Correct screenshot should contain your github username in the shell, a command a
 
 **Explanation** Write the explanation why the specific command was used.
 
+
+
+
+
+
+
+
+
+
+
 ---
 
 ### 2. How many different ages are in fullnames_with_age.txt?
