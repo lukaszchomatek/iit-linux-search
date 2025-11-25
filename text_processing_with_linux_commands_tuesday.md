@@ -17,7 +17,8 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
-![task 1](Zrzut ekranu 2025-11-25 184142.png)
+
+![task 1](task1.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
@@ -32,7 +33,7 @@ wc -l counts the number of lines
 
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
-![task 2](Zrzut ekranu 2025-11-25 184150.png)
+![task 2](task2.png)
 
 **Explanation** Write the explanation why the specific command was used.
 awk '{print $NF}' prints only the last column of every line, $NF means "Number of Fields" 
@@ -48,7 +49,7 @@ wc -l counts the remaining unique lines
 
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
-![task 3](Zrzut ekranu 2025-11-25 184235.png)
+![task 3](task3.png)
 **Explanation** Write the explanation why the specific command was used.
 awk '{print $1}' prints the first column of the file
 
@@ -63,7 +64,7 @@ wc -l counts the remaining unique lines
 
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
-![task 4](Zrzut ekranu 2025-11-25 184322.png)
+![task 4](task4.png)
 **Explanation** Write the explanation why the specific command was used.
 awk '{print $NF}' prints only the last column of every line, $NF means "Number of Fields" 
 
@@ -79,7 +80,7 @@ head -n 1 shows only the top line
 
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
-![task 5](Zrzut ekranu 2025-11-25 184759.png)
+![task 5](task5.png)
 **Explanation** Write the explanation why the specific command was used.
 
 ---
@@ -96,7 +97,7 @@ head -n 1 shows only the top line
 
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
-![task 6](Zrzut ekranu 2025-11-25 184827.png)
+![task 6](task6.png)
 **Explanation** Write the explanation why the specific command was used.
 grep "ok=true" searches for lines matching that specific pattern.
 
@@ -107,7 +108,7 @@ wc -l counts the number of matching lines
 
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
-![task 7](Zrzut ekranu 2025-11-25 184850.png)
+![task 7](task7.png)
 **Explanation** Write the explanation why the specific command was used.
 grep -oE "INFO|WARN|ERROR" the -o prints only the matching word, the -E allows searching for multiple patterns
 
@@ -122,7 +123,7 @@ head -n 1 shows only the top line
 
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
-![task 8](Zrzut ekranu 2025-11-25 185025.png) 
+![task 8](task8.png) 
 **Explanation** Write the explanation why the specific command was used.
 awk '{print $4}' extracts the fourth column
 
@@ -137,7 +138,7 @@ head -n 3 shows the top 3 results
 
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
-![task 9](Zrzut ekranu 2025-11-25 185114.png)
+![task 9](task9.png)
 **Explanation** Write the explanation why the specific command was used.
 awk '{print $4}': Extracts the fourth column 
 
