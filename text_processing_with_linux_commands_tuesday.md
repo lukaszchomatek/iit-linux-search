@@ -89,6 +89,6 @@ grep -o "action=[^ ]*" extracts the action= field. cut -d'=' -f2 keeps only the 
 ![task 9](task9.png)
 
 **Explanation**  
-grep -o "user=[^ ]*" extracts the user field. cut -d'=' -f2 keeps the username. uniq | wc -l counts unique users.
+grep -o "user=[^ ]*" extracts the user field. cut -d'=' -f2 keeps the username. uniq | wc -l counts unique users
 
 ---
