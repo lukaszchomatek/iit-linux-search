@@ -18,7 +18,9 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task 1](task1.png)
+
+**Explanation** grep was used to search for lines with specific pattern. wc -l to count this specific patterns.
 
 ---
 
@@ -27,7 +29,9 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task 2](task2.png)
+
+**Explanation** sort -n arranges numerically. uniq -c counts occurrences. wc -l writes it.
 
 ---
 
@@ -36,7 +40,9 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task 3](task3.png)
+
+**Explanation** -d ' ' cuts spaces. -f2 selects the second field. sort arranges the lines. uniq chooses the specific lines. wc -l counts these lines.
 
 ---
 
@@ -45,7 +51,9 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task 4](task4.png)
+
+**Explanation** awk '{print $NF}' takes the last part of the line, which is age. sort - arranges, uniq -c counts repetatives, sort -nr sorts in nummercal order with increasing order, head -1 shows the most frequent age
 
 ---
 
@@ -54,7 +62,9 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task 5](task5.png)
+
+**Explanation** grep was used to search for lines with specific pattern. cut -d', ' to cut out the ', ' sign. -f2 to choose second field. sort to arrange, uniq -c to count specifics and head -1 to choose our option.
 
 ---
 
@@ -63,7 +73,9 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task 6](task6.png)
+
+**Explanation** grep was used to search for lines with specific pattern. wc -l to count them.
 
 ---
 
@@ -72,7 +84,9 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task 7](task7.png)
+
+**Explanation** grep -o  outputs only the part of the line that matches the pattern.
 
 ---
 
@@ -81,7 +95,9 @@ Correct screenshot should contain your github username in the shell, a command a
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+![task 8](task8.png)
+
+**Explanation** head -3 chooses firtst 3 options.
 
 ---
 
@@ -89,6 +105,8 @@ Correct screenshot should contain your github username in the shell, a command a
 
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
+
+![task 9](task9.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
