@@ -5,13 +5,13 @@
 Put screenshot from Codespaces illustrating the result here.
 Correct screenshot should contain your github username in the shell, a command and the result.
 
-Example:
-
 ![task 0](task0.png)
 
 **Explanation** word count with flag -l count all lines in path
 
 Example: wc command is to count data in a given file. -l parameter is for counting lines.
+
+---
 
 ### 1. How many lines in access_small.log have path /login?
 
@@ -84,4 +84,6 @@ sort -nr | head -n 3 finds top 3 most common actions
 ![task 9](task9.png)
 
 **Explanation** cat open file, "tr -s" is for making multiple spaces into one, cut grabs column number 4, sort and unique for sorting and removing duplications. Then wc sum it up and write down result
+
+
 ---
