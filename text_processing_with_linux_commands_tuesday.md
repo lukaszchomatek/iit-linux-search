@@ -15,10 +15,11 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 ### 1. How many lines in access_small.log have path /login?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![Task 1](task1.png)
 
-**Explanation** Write the explanation why the specific command was used.
+1. `grep` - Get lines that only contain "/login" in the file
+2. `wc` - Count the lines that `grep` returned and print the count
+   - `-l` - Only show line count
 
 ---
 
