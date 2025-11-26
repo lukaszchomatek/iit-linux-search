@@ -384,7 +384,7 @@
 2025-03-21T12:36:07Z INFO billing user=u1 action=delete msg=done
 2025-03-21T12:36:15Z WARN billing user=u20 action=pay msg=ok
 2025-03-21T12:36:19Z INFO search user=u19 action=delete msg=fail
-2025-03-21T12:36:27Z  ERROR search user=u20 action=login msg=ok
+2025-03-21T12:36:27Z ERROR search user=u20 action=login msg=ok
 2025-03-21T12:36:35Z INFO billing user=u9 action=logout msg=processing
 2025-03-21T12:36:44Z INFO auth user=u14 action=refund msg=fail
 2025-03-21T12:36:49Z INFO auth user=u9 action=search msg=done
@@ -392,7 +392,7 @@
 2025-03-21T12:36:58Z WARN orders user=u2 action=refund msg=processing
 2025-03-21T12:37:05Z WARN auth user=u2 action=logout msg=ok
 2025-03-21T12:37:07Z ERROR auth user=guest action=logout msg=fail
-2025-03-21T12:37:15Z  ERROR auth user=u2 action=logout msg=ok
+2025-03-21T12:37:15Z ERROR auth user=u2 action=logout msg=ok
 2025-03-21T12:37:23Z INFO orders user=u19 action=login msg=fail
 2025-03-21T12:37:24Z WARN billing user=u13 action=delete msg=done
 2025-03-21T12:37:25Z WARN billing user=system action=refund msg=ok
@@ -445,7 +445,7 @@
 2025-03-21T12:42:01Z ERROR search user=u5 action=search msg=ok
 2025-03-21T12:42:10Z ERROR auth user=guest action=refund msg=done
 2025-03-21T12:42:18Z WARN orders user=u15 action=delete msg=fail
-2025-03-21T12:42:25Z  WARN billing user=u2 action=delete msg=processing
+2025-03-21T12:42:25Z WARN billing user=u2 action=delete msg=processing
 2025-03-21T12:42:32Z ERROR search user=u6 action=refund msg=processing
 2025-03-21T12:42:34Z INFO search user=u15 action=search msg=fail
 2025-03-21T12:42:41Z INFO search user=u7 action=create msg=fail
@@ -467,7 +467,7 @@
 2025-03-21T12:44:02Z ERROR orders user=u18 action=search msg=ok
 2025-03-21T12:44:09Z WARN search user=u18 action=create msg=done
 2025-03-21T12:44:16Z ERROR orders user=u5 action=logout msg=fail
-2025-03-21T12:44:26Z  INFO search user=u5 action=delete msg=done
+2025-03-21T12:44:26Z INFO search user=u5 action=delete msg=done
 2025-03-21T12:44:34Z ERROR orders user=u7 action=delete msg=ok
 2025-03-21T12:44:42Z WARN orders user=u13 action=pay msg=fail
 2025-03-21T12:44:52Z INFO search user=u17 action=search msg=ok
@@ -475,7 +475,7 @@
 2025-03-21T12:45:03Z WARN search user=u3 action=login msg=done
 2025-03-21T12:45:04Z ERROR orders user=u9 action=refund msg=processing
 2025-03-21T12:45:12Z WARN billing user=guest action=pay msg=ok
-2025-03-21T12:45:20Z  WARN billing user=u10 action=delete msg=ok
+2025-03-21T12:45:20Z WARN billing user=u10 action=delete msg=ok
 2025-03-21T12:45:28Z INFO orders user=u14 action=create msg=ok
 2025-03-21T12:45:31Z WARN auth user=u13 action=pay msg=ok
 2025-03-21T12:45:40Z WARN auth user=u11 action=search msg=fail
@@ -495,7 +495,7 @@
 2025-03-21T12:46:56Z ERROR billing user=u5 action=refund msg=done
 2025-03-21T12:47:06Z ERROR billing user=u17 action=logout msg=fail
 2025-03-21T12:47:08Z ERROR search user=u1 action=pay msg=done
-2025-03-21T12:47:16Z  ERROR auth user=u13 action=login msg=fail
+2025-03-21T12:47:16Z ERROR auth user=u13 action=login msg=fail
 2025-03-21T12:47:21Z ERROR auth user=u1 action=pay msg=ok
 2025-03-21T12:47:25Z ERROR search user=u7 action=login msg=ok
 2025-03-21T12:47:30Z WARN auth user=u17 action=logout msg=done
@@ -645,7 +645,7 @@
 2025-03-21T13:00:47Z ERROR search user=u15 action=pay msg=fail
 2025-03-21T13:00:53Z WARN orders user=u10 action=login msg=processing
 2025-03-21T13:00:57Z INFO auth user=u3 action=delete msg=ok
-2025-03-21T13:01:06Z  INFO orders user=u19 action=search msg=done
+2025-03-21T13:01:06Z INFO orders user=u19 action=search msg=done
 2025-03-21T13:01:13Z ERROR auth user=u11 action=pay msg=processing
 2025-03-21T13:01:18Z ERROR orders user=u12 action=search msg=ok
 2025-03-21T13:01:27Z WARN billing user=u14 action=delete msg=done
@@ -774,7 +774,7 @@
 2025-03-21T13:13:15Z ERROR search user=u3 action=login msg=fail
 2025-03-21T13:13:23Z INFO search user=u18 action=pay msg=fail
 2025-03-21T13:13:32Z WARN auth user=u16 action=login msg=fail
-2025-03-21T13:13:35Z  ERROR auth user=u7 action=login msg=ok
+2025-03-21T13:13:35Z ERROR auth user=u7 action=login msg=ok
 2025-03-21T13:13:40Z INFO orders user=u7 action=refund msg=fail
 2025-03-21T13:13:48Z INFO billing user=u11 action=refund msg=done
 2025-03-21T13:13:58Z ERROR auth user=guest action=refund msg=done
@@ -894,7 +894,7 @@
 2025-03-21T13:24:45Z WARN search user=u16 action=pay msg=processing
 2025-03-21T13:24:54Z INFO orders user=u11 action=search msg=done
 2025-03-21T13:25:02Z WARN search user=u17 action=search msg=fail
-2025-03-21T13:25:09Z  ERROR search user=u17 action=login msg=processing
+2025-03-21T13:25:09Z ERROR search user=u17 action=login msg=processing
 2025-03-21T13:25:17Z ERROR auth user=u4 action=create msg=done
 2025-03-21T13:25:24Z ERROR billing user=u12 action=logout msg=fail
 2025-03-21T13:25:32Z WARN orders user=u11 action=search msg=done
@@ -955,7 +955,7 @@
 2025-03-21T13:30:32Z ERROR search user=u13 action=search msg=processing
 2025-03-21T13:30:36Z ERROR auth user=u5 action=delete msg=fail
 2025-03-21T13:30:37Z ERROR auth user=u14 action=create msg=ok
-2025-03-21T13:30:38Z  ERROR billing user=system action=refund msg=done
+2025-03-21T13:30:38Z ERROR billing user=system action=refund msg=done
 2025-03-21T13:30:39Z WARN auth user=u5 action=delete msg=done
 2025-03-21T13:30:46Z ERROR billing user=u12 action=pay msg=fail
 2025-03-21T13:30:47Z ERROR billing user=system action=pay msg=fail
@@ -1059,7 +1059,7 @@
 2025-03-21T13:40:04Z INFO search user=u2 action=pay msg=fail
 2025-03-21T13:40:10Z INFO search user=u15 action=refund msg=processing
 2025-03-21T13:40:19Z INFO auth user=guest action=create msg=fail
-2025-03-21T13:40:29Z  INFO orders user=u15 action=login msg=fail
+2025-03-21T13:40:29Z INFO orders user=u15 action=login msg=fail
 2025-03-21T13:40:31Z WARN orders user=u17 action=pay msg=done
 2025-03-21T13:40:38Z ERROR orders user=u18 action=delete msg=processing
 2025-03-21T13:40:48Z ERROR billing user=u4 action=pay msg=ok
@@ -1133,7 +1133,7 @@
 2025-03-21T13:47:02Z INFO billing user=u8 action=pay msg=processing
 2025-03-21T13:47:03Z WARN orders user=u16 action=logout msg=ok
 2025-03-21T13:47:08Z WARN search user=u12 action=delete msg=done
-2025-03-21T13:47:14Z  INFO billing user=u16 action=login msg=processing
+2025-03-21T13:47:14Z INFO billing user=u16 action=login msg=processing
 2025-03-21T13:47:23Z INFO orders user=u17 action=search msg=ok
 2025-03-21T13:47:32Z INFO auth user=u5 action=create msg=fail
 2025-03-21T13:47:36Z WARN billing user=u13 action=login msg=processing
@@ -1145,7 +1145,7 @@
 2025-03-21T13:48:13Z WARN billing user=u3 action=search msg=processing
 2025-03-21T13:48:18Z INFO billing user=u14 action=refund msg=fail
 2025-03-21T13:48:19Z WARN orders user=u16 action=create msg=ok
-2025-03-21T13:48:26Z  ERROR billing user=u10 action=search msg=done
+2025-03-21T13:48:26Z ERROR billing user=u10 action=search msg=done
 2025-03-21T13:48:34Z INFO search user=u4 action=logout msg=done
 2025-03-21T13:48:35Z WARN orders user=guest action=login msg=fail
 2025-03-21T13:48:41Z WARN orders user=u16 action=refund msg=done
@@ -1160,7 +1160,7 @@
 2025-03-21T13:49:38Z ERROR auth user=u7 action=search msg=fail
 2025-03-21T13:49:47Z INFO search user=u15 action=create msg=ok
 2025-03-21T13:49:57Z ERROR search user=u3 action=search msg=processing
-2025-03-21T13:50:02Z  ERROR orders user=guest action=search msg=processing
+2025-03-21T13:50:02Z ERROR orders user=guest action=search msg=processing
 2025-03-21T13:50:04Z INFO orders user=u15 action=search msg=ok
 2025-03-21T13:50:09Z INFO orders user=u16 action=login msg=ok
 2025-03-21T13:50:18Z ERROR auth user=u3 action=search msg=ok
@@ -1322,9 +1322,9 @@
 2025-03-21T14:05:09Z ERROR orders user=u1 action=login msg=fail
 2025-03-21T14:05:12Z INFO auth user=u9 action=logout msg=ok
 2025-03-21T14:05:19Z WARN search user=u14 action=create msg=done
-2025-03-21T14:05:25Z  WARN orders user=u20 action=create msg=fail
+2025-03-21T14:05:25Z WARN orders user=u20 action=create msg=fail
 2025-03-21T14:05:27Z ERROR auth user=u12 action=logout msg=done
-2025-03-21T14:05:36Z  INFO orders user=u2 action=pay msg=fail
+2025-03-21T14:05:36Z INFO orders user=u2 action=pay msg=fail
 2025-03-21T14:05:38Z ERROR billing user=u17 action=logout msg=fail
 2025-03-21T14:05:39Z WARN orders user=guest action=refund msg=ok
 2025-03-21T14:05:42Z INFO auth user=u4 action=logout msg=processing
@@ -1456,7 +1456,7 @@
 2025-03-21T14:17:35Z INFO search user=u14 action=search msg=ok
 2025-03-21T14:17:39Z WARN billing user=guest action=search msg=ok
 2025-03-21T14:17:40Z ERROR auth user=u11 action=refund msg=done
-2025-03-21T14:17:48Z  ERROR billing user=u18 action=search msg=processing
+2025-03-21T14:17:48Z ERROR billing user=u18 action=search msg=processing
 2025-03-21T14:17:50Z WARN orders user=u20 action=create msg=done
 2025-03-21T14:17:56Z ERROR search user=u11 action=delete msg=processing
 2025-03-21T14:18:00Z WARN search user=u7 action=create msg=processing
@@ -1467,7 +1467,7 @@
 2025-03-21T14:18:23Z WARN orders user=u14 action=search msg=fail
 2025-03-21T14:18:25Z WARN auth user=u1 action=create msg=processing
 2025-03-21T14:18:35Z WARN billing user=u13 action=refund msg=done
-2025-03-21T14:18:41Z  WARN search user=u15 action=logout msg=fail
+2025-03-21T14:18:41Z WARN search user=u15 action=logout msg=fail
 2025-03-21T14:18:43Z ERROR search user=u15 action=login msg=fail
 2025-03-21T14:18:53Z INFO orders user=system action=logout msg=done
 2025-03-21T14:19:03Z INFO billing user=u6 action=search msg=ok
@@ -1510,7 +1510,7 @@
 2025-03-21T14:22:14Z WARN search user=u4 action=refund msg=processing
 2025-03-21T14:22:22Z INFO orders user=u6 action=create msg=processing
 2025-03-21T14:22:24Z INFO auth user=u12 action=search msg=fail
-2025-03-21T14:22:33Z  INFO orders user=u6 action=create msg=done
+2025-03-21T14:22:33Z INFO orders user=u6 action=create msg=done
 2025-03-21T14:22:40Z INFO billing user=u5 action=create msg=fail
 2025-03-21T14:22:41Z INFO billing user=u16 action=refund msg=ok
 2025-03-21T14:22:46Z WARN billing user=guest action=login msg=processing
@@ -1567,7 +1567,7 @@
 2025-03-21T14:27:52Z ERROR auth user=u6 action=search msg=done
 2025-03-21T14:27:54Z ERROR orders user=u1 action=logout msg=processing
 2025-03-21T14:28:02Z WARN auth user=u14 action=pay msg=processing
-2025-03-21T14:28:10Z  WARN billing user=u15 action=search msg=done
+2025-03-21T14:28:10Z WARN billing user=u15 action=search msg=done
 2025-03-21T14:28:19Z WARN search user=u11 action=search msg=done
 2025-03-21T14:28:27Z ERROR auth user=u12 action=refund msg=fail
 2025-03-21T14:28:34Z ERROR orders user=u10 action=refund msg=ok
@@ -1770,7 +1770,7 @@
 2025-03-21T14:46:29Z INFO orders user=u9 action=create msg=done
 2025-03-21T14:46:30Z WARN orders user=u10 action=delete msg=processing
 2025-03-21T14:46:40Z WARN billing user=u9 action=search msg=fail
-2025-03-21T14:46:45Z  INFO billing user=guest action=create msg=processing
+2025-03-21T14:46:45Z INFO billing user=guest action=create msg=processing
 2025-03-21T14:46:52Z ERROR auth user=guest action=delete msg=ok
 2025-03-21T14:47:00Z ERROR auth user=u4 action=search msg=ok
 2025-03-21T14:47:08Z INFO search user=u19 action=logout msg=fail
@@ -1784,7 +1784,7 @@
 2025-03-21T14:47:50Z WARN auth user=u15 action=delete msg=ok
 2025-03-21T14:48:00Z ERROR auth user=u2 action=create msg=done
 2025-03-21T14:48:01Z ERROR search user=u8 action=login msg=ok
-2025-03-21T14:48:11Z  INFO billing user=u1 action=login msg=done
+2025-03-21T14:48:11Z INFO billing user=u1 action=login msg=done
 2025-03-21T14:48:15Z WARN billing user=u12 action=pay msg=done
 2025-03-21T14:48:16Z INFO auth user=u17 action=logout msg=fail
 2025-03-21T14:48:26Z ERROR billing user=u11 action=logout msg=done
@@ -1814,7 +1814,7 @@
 2025-03-21T14:50:35Z INFO orders user=u11 action=delete msg=ok
 2025-03-21T14:50:38Z INFO billing user=u15 action=create msg=fail
 2025-03-21T14:50:43Z ERROR orders user=u18 action=search msg=done
-2025-03-21T14:50:45Z  WARN search user=u4 action=search msg=fail
+2025-03-21T14:50:45Z WARN search user=u4 action=search msg=fail
 2025-03-21T14:50:51Z WARN auth user=u14 action=search msg=ok
 2025-03-21T14:51:01Z WARN billing user=u20 action=delete msg=fail
 2025-03-21T14:51:02Z WARN billing user=u10 action=logout msg=ok
@@ -1885,7 +1885,7 @@
 2025-03-21T14:57:04Z INFO billing user=u8 action=create msg=processing
 2025-03-21T14:57:14Z WARN billing user=u6 action=login msg=done
 2025-03-21T14:57:20Z INFO search user=u12 action=logout msg=done
-2025-03-21T14:57:24Z  ERROR search user=u15 action=delete msg=fail
+2025-03-21T14:57:24Z ERROR search user=u15 action=delete msg=fail
 2025-03-21T14:57:30Z ERROR auth user=u19 action=logout msg=processing
 2025-03-21T14:57:38Z INFO billing user=u13 action=logout msg=done
 2025-03-21T14:57:40Z ERROR billing user=u10 action=logout msg=processing
