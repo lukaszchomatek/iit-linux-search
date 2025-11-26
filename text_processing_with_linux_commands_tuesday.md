@@ -25,10 +25,14 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 ### 2. How many different ages are in fullnames_with_age.txt?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![Task 2](task2.png)
 
-**Explanation** Write the explanation why the specific command was used.
+1. `grep` - Extract age parameters(?) from the file
+   - `-o` - Get only the matched parts, not the whole line
+   - `"age=[0-9]*"` - A regexp that matches only the age part
+2. `uniq` - Filter the ages to only contain distinct... ages
+3. `wc` - Count the filtered ages and print the count
+   - `-l` - Only show line count
 
 ---
 
