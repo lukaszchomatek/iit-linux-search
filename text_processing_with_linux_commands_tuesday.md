@@ -30,7 +30,8 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 1. `grep` - Extract age parameters(?) from the file
    - `-o` - Get only the matched parts, not the whole line
    - `"age=[0-9]*"` - A regexp that matches only the age part
-2. `uniq` - Filter the ages to only contain distinct... ages
+2. `sort` - Sort the ages to remove duplicates
+   - `-u` - Retain only unique ages (like `uniq`)
 3. `wc` - Count the filtered ages and print the count
    - `-l` - Only show line count
 
@@ -43,7 +44,8 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 1. `grep` - Extract only the first names from the file
    - `-o` - Get only the matched parts, not the whole line
    - `"^[a-zA-Z]* "` - A regexp that only matches the first name
-2. `uniq` - Filter the names to only contain distinct names
+2. `sort` - Sort the names to only contain distinct names
+   - `-u` - Retain unique names only
 3. `wc` - Count the resulting names and print the count
    - `-l` - Only show the line count
 
