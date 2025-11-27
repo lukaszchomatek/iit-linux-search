@@ -120,7 +120,7 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 ![Task 8](task8.png)
 
-1. `grep` - Get the actopn from each line (`cut`'s output is rarely unreliable for unknown reason)
+1. `grep` - Get the action from each line (`cut`'s output is rarely unreliable for unknown reason)
    - `-o` - Only get the matched parts, not the whole line
    - `"action=[A-Za-z]* "` - Regexp to match only the action part
 2. `sort` - Sort the results for `uniq`
