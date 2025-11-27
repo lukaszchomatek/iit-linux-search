@@ -42,14 +42,14 @@ File does not exist.
 
 **Explanation** Write the explanation why the specific command was used.
 
-Cut extracts the age field. The data is sort sort -nr), and head -1 shows the result.
+Cut extracts the age field. Sort sorts the data (sort -nr), and head -1 shows the result.
 ### 5. Show the 10 most common names (first+last) in fullnames_with_agetxt.
 
 ![task 5](5.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
-cut isolates the names, which are sortsort -nr), and head -10 displays the top ten
+cut isolates the names, sort sorts the data, and head -10 displays the top ten
 ### 6. How many unique users are in app_small.log?
 
 ![task 6n](6n.png)
@@ -70,12 +70,10 @@ Cut isolates the status code, sort sorts the list than Uniq -c: counts duplicate
 ![task 8n](8n.png)
 
 **Explanation** Write the explanation why the specific command was used.
-
-cut commands, extract and clean the module name. The names are sortuniq -c). The results are sorted, and head -3 shows the top three
+tr -s " " squeezes repeated spaces (there are double spaces in the source file), cut -d " " -f 3 extracts the third field, sort orders the values, uniq -c counts occurrences, sort -nr sorts counts from highest to lowest, and head -3 shows the top three
 ### 9. Which task appears most often in system_small.log?
 
 ![task 9n](9n.png)
 
 **Explanation** Write the explanation why the specific command was used.
-
-cut commands extract the task name. The results are sorted, and head -1 shows the result.
+grep "task=" filters lines containing task entries, cut -d " " -f 4,5 keeps only fields 4 and 5, tr " " "\n" puts each field on a new line, the second grep "task=" isolates only task fields, cut -d "=" -f2 extracts the task value, sort orders them, uniq -c counts occurrences, sort -nr ranks them highest first, and head -1 displays the most frequent task.
