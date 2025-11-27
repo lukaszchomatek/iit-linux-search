@@ -71,10 +71,20 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 ### 5. Which username failed login most often in auth_small.csv?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![Task 5](task5.png)
 
-**Explanation** Write the explanation why the specific command was used.
+1. `cut` - Get only the username and result column from file
+   - `-d ","` - Set the delimiter to ","; not TAB
+   - `-f "2,4"` - Select column 2 and 4, which are the username and result columns
+2. `grep` - Filter the results to only contain failures
+3. `sort` - Sort the results for `uniq`
+4. `uniq` - Get counts for each unique entry (Only usernames are different at this point)
+   - `-c` - Count the amount of duplicates
+5. `sort` - Sort the results to find the most often failed login
+   - `-n` - Sort by numerical values
+   - `-r` - Sort from highest to lowest
+6. `head` - Show the most often login failure with username
+   - `-n 1` - Show only the first line of the results, sorted by the `sort`
 
 ---
 
