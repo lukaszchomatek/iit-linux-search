@@ -53,10 +53,19 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 ### 4. Which age is most frequent in fullnames_with_age.txt?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![Task 4](task4.png)
 
-**Explanation** Write the explanation why the specific command was used.
+1. `grep` - Extract ages from the file
+   - `-o` - Get only the matched parts, not the whole line
+   - `"age=[0-9]*"` - Regexp that matches only the age parts
+2. `sort` - Sorts input for `uniq`
+3. `uniq` - Count unique ages
+   - `-c` - Additionally print the counted ages
+4. `sort` - Sort the counted ages
+   - `-n` - Sort by numerical values
+   - `-r` - Sort from highest to lowest count
+5. `head` - Show only the most frequent age
+   - `-n 1` - Show only the first line of the `sort` output
 
 ---
 
