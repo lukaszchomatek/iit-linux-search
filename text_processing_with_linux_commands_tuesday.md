@@ -118,10 +118,19 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 ### 8. What is the top 3 most common actions in app_small.log?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![Task 8](task8.png)
 
-**Explanation** Write the explanation why the specific command was used.
+1. `grep` - Get the actopn from each line (`cut`'s output is rarely unreliable for unknown reason)
+   - `-o` - Only get the matched parts, not the whole line
+   - `"action=[A-Za-z]* "` - Regexp to match only the action part
+2. `sort` - Sort the results for `uniq`
+3. `uniq` - Count occurences for each unique action
+   - `-c` - Print counts for each action
+4. `sort` - Sort the results to find the most often used action
+   - `-n` - Sort by numerical values
+   - `-r` - Sort from highest to lowest
+5. `head` - Print the most often used actions
+   - `-n 3` - Show only the first three lines of the results
 
 ---
 
