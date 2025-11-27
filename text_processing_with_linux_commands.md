@@ -67,14 +67,14 @@ Cut isolates the status code, sort sorts the list than Uniq -c: counts duplicate
 
 ### 8. What is the top 3 most common modules in app_small.log?
 
-![task 8](8.png)
+![task 8n](8n.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
 cut commands, extract and clean the module name. The names are sortuniq -c). The results are sorted, and head -3 shows the top three
 ### 9. Which task appears most often in system_small.log?
 
-![task 9](9.png)
+![task 9n](9n.png)
 
 **Explanation** Write the explanation why the specific command was used.
 
