@@ -136,9 +136,14 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 
 ### 9. How many unique users are in app_small.log?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+![Task 9](task9.png)
 
-**Explanation** Write the explanation why the specific command was used.
+1. `grep` - Get the user part from each line (`cut`'s output is rarely unreliable for unknown reason)
+   - `-o` - Only get the matched parts, not the whole line
+   - `"user=[A-Za-z0-9]* "` - Regexp to match only the user part
+2. `sort` - Sort and remove duplicates from the result
+   - `-u` - Remove duplicates (like `uniq`)
+3. `wc` - Print number of unique users from result
+   - `-l` - Count lines, not words
 
 ---
