@@ -47,25 +47,25 @@ Example: wc command is to count data in a given file. -l parameter is for counti
 ### 6. How many unique users are in app_small.log?
 <img width="1061" height="35" alt="obraz" src="https://github.com/user-attachments/assets/2658543c-3c70-4f18-8618-98add5c98b72" />
 
-**Explanation** cut commands format the data, uniq shows only unique linse and wc -l counts them.
+**Explanation** cut commands format the data, uniq shows only unique lines and wc -l counts them.
 
 ### 7. Which status code appears most often in access_medium.log? 
-<img width="866" height="51" alt="obraz" src="https://github.com/user-attachments/assets/f5b9d889-2646-431f-8eed-6b16c46ae9c7" />
+<img width="982" height="32" alt="{376F5850-7575-4DAE-A3BE-9F2A7EE9BB15}" src="https://github.com/user-attachments/assets/db0f73c3-4137-4248-b56d-493545fbbfe8" />
 
 
 
-**Explanation** Write the explanation why the specific command was used.
+
+**Explanation** same as previous examples.
 
 ### 8. What is the top 3 most common modules in app_small.log?
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
+<img width="1003" height="73" alt="{3A9647B6-2505-4AE4-ABD4-352A688F9CD5}" src="https://github.com/user-attachments/assets/5600268e-aae7-4f2a-8c84-4af1d58ff4ba" />
 
-**Explanation** Write the explanation why the specific command was used.
+
+**Explanation** Similar to previous tasks but tr -s ' ' is used to get rid of the double whitespaces.
 
 ### 9. Which task appears most often in system_small.log?
+<img width="1087" height="41" alt="{5DD43B43-5399-4734-9E1C-CE1A7377F9EF}" src="https://github.com/user-attachments/assets/258fb71d-75fb-4387-aa99-506e890abdd0" />
 
-Put screenshot from Codespaces illustrating the result here.
-Correct screenshot should contain your github username in the shell, a command and the result.
 
-**Explanation** Write the explanation why the specific command was used.
+**Explanation** Weird data but using = as delimeter works fine.
