@@ -1,27 +1,5 @@
-2025-03-21T12:00:07Z ERROR billing user=u3 action=pay msg=processing
-2025-03-21T12:00:16Z ERROR billing user=u15 action=delete msg=ok
-2025-03-21T12:00:22Z WARN search user=u3 action=search msg=fail
-2025-03-21T12:00:24Z ERROR billing user=u20 action=delete msg=processing
-2025-03-21T12:00:32Z ERROR search user=u4 action=refund msg=processing
-2025-03-21T12:00:41Z ERROR search user=u11 action=create msg=ok
-2025-03-21T12:00:51Z INFO search user=u2 action=delete msg=fail
-2025-03-21T12:00:59Z WARN billing user=u8 action=create msg=ok
-2025-03-21T12:01:01Z WARN billing user=u7 action=login msg=processing
-2025-03-21T12:01:11Z INFO orders user=u3 action=login msg=processing
-2025-03-21T12:01:15Z WARN search user=u18 action=pay msg=processing
-2025-03-21T12:01:18Z INFO auth user=u9 action=login msg=done
-2025-03-21T12:01:19Z INFO auth user=u2 action=search msg=done
-2025-03-21T12:01:28Z WARN search user=u18 action=create msg=ok
-2025-03-21T12:01:30Z INFO orders user=u18 action=login msg=processing
-2025-03-21T12:01:38Z INFO search user=u1 action=refund msg=done
-2025-03-21T12:01:39Z ERROR billing user=u2 action=create msg=done
-2025-03-21T12:01:44Z WARN billing user=u11 action=login msg=ok
-2025-03-21T12:01:53Z INFO billing user=u8 action=logout msg=processing
-2025-03-21T12:01:57Z ERROR billing user=u12 action=login msg=done
-2025-03-21T12:02:04Z INFO orders user=u3 action=delete msg=ok
-2025-03-21T12:02:12Z WARN search user=u16 action=create msg=fail
-2025-03-21T12:02:22Z ERROR auth user=u18 action=search msg=ok
-2025-03-21T12:02:25Z ERROR auth user=u1 action=login msg=done
+grep -o 'user=[^ ]*' app_small.log | sort -u | wc -l
+
 2025-03-21T12:02:32Z ERROR search user=u20 action=pay msg=fail
 2025-03-21T12:02:36Z ERROR orders user=u1 action=delete msg=done
 2025-03-21T12:02:46Z WARN billing user=u13 action=login msg=fail
